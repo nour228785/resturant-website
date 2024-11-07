@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!------------------fonts icon-------------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-----------fonts----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Sevillana&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Qrispy.resturant</title>
+  </head>
+  <!----------------------NAV BAR--------------------------->
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white shadow sticky-top">
+      <div class="container">
+        <span class="navbar-brand" href="#">.Qrispy</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto fst-italic fw-lighter">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feature">Feature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog">Blog</a>
+            </li>
+          </ul>
+          <a class="btn btn-brand" href="">Order Online</a>
+        </div>
+      </div>
+    </nav>
+
+    <!---------------------- END NAV BAR--------------------------->
+
+    <!-----------------------sliders section-------------------------->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item text-center vh-100 active slide1">
+          <div class="container h-100">
+            <div class="row">
+              <div class="col-lg-8">
+                <h3 class="text-white mt-5 fst-italic">WELCOM TO QRISPY</h3>
+                <h1 class="display-1 text-white">
+                  Lorem ipsum <br />
+                  sit amet.
+                </h1>
+                <a class="btn btn-brand mt-4" href="">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item text-center vh-100 slide2">
+          <div class="container h-100">
+            <div class="row">
+              <div class="col-lg-8">
+                <h3 class="text-white mt-5 fst-italic">WELCOM TO QRISPY</h3>
+                <h1 class="display-1 text-white">
+                  Lorem ipsum dolor <br />
+                  sit amet.
+                </h1>
+                <a class="btn btn-brand mt-4" href="">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!----------------------- end sliders section-------------------------->
+
+    <!----------------------- about section-------------------------->
+    <section id="about">
+      <div class="container">
+        <div class="row gy-5 fst-italic align-items-center">
+          <div class="col-lg-6">
+            <img class="mx-auto h-100" src="./img/table.jpg" alt="" />
+          </div>
+          <div class="col-lg-6 ps-5 align-items-center">
+            <h1 class="fw-bolder mt-2">About Us</h1>
+            <div class="divider my-4"></div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+              labore.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              tempore exercitationem laborum eum dolorum corporis veniam rerum
+              repudiandae amet voluptatem!
+            </p>
+            <a class="btn btn-brand mt-2" href="">Explor Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------- end about section-------------------------->
+
+    <!-----------------------  menu section-------------------------->
+    <section class="bg-light" id="menu">
+      <div class="container">
+        <div class="row menu-text">
+          <div class="col-md-12 text-center">
+            <h1 class="fw-bolder mt-2 fst-italic">Explore Menu</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, est
+              voluptatum quae nemo ipsum accusantium odio velit ad aut
+              exercitationem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul
+          class="nav nav-pills mb-3 justify-content-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold active"
+              id="pills-all-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-all"
+              type="button"
+              role="tab"
+              aria-controls="pills-all"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold"
+              id="pills-breakfast-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-breakfast"
+              type="button"
+              role="tab"
+              aria-controls="pills-breakfast"
+              aria-selected="true"
+            >
+              Breakfast
+            </button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold"
+              id="pills-lunch-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-lunch"
+              type="button"
+              role="tab"
+              aria-controls="pills-lunch"
+              aria-selected="true"
+            >
+              Lunch
+            </button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link fw-bold"
+              id="pills-dinner-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-dinner"
+              type="button"
+              role="tab"
+              aria-controls="pills-dinner"
+              aria-selected="true"
+            >
+              Dinner
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-all"
+            role="tabpanel"
+            aria-labelledby="pills-all-tab"
+          >
+            <div class="row gy-4">
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/basic6.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/lunch2.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/all10.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/break4.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class=" "
+                    style="height: 175px"
+                    src="./img/hot  drinks1.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/cold drinks.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-2" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/cakes.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/ice cream.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor sit</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade show"
+            id="pills-breakfast"
+            role="tabpanel"
+            aria-labelledby="pills-breakfast-tab"
+          >
+            <div class="row">
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/break1.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/break2.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor</a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/break3.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/break7.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade show"
+            id="pills-lunch"
+            role="tabpanel"
+            aria-labelledby="pills-lunch-tab"
+          >
+            <div class="row">
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/dish.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/meat4.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/lunch2.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a C href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/meat.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade show"
+            id="pills-dinner"
+            role="tabpanel"
+            aria-labelledby="pills-dinner-tab"
+          >
+            <div class="row">
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/hamburger.avif"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/salad4.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/pasta.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="menu-item bg-white ms-4 shdow-on-hover">
+                  <img
+                    class="img-fluid"
+                    style="height: 175px"
+                    src="./img/pizza.jpg"
+                    alt=""
+                  />
+                  <div class="menu-item-content p-4">
+                    <div>
+                      <span>(5.4)</span>
+                      <span
+                        ><i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-half-fill"></i>
+                      </span>
+                    </div>
+                    <h4 class="mb-2">
+                      <a class="fs-6 p-1" href="#">Lorem ipsum dolor </a>
+                    </h4>
+                    <p class="mb-2">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Hic praesentium voluptatem iste exercitationem. Possimus,
+                      est.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------- end menu section-------------------------->
+
+    <!----------------------- feature section-------------------------->
+    <section id="feature" class="mt-5">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-md-12">
+            <h3 class="text-white text-center fs-1 mt-4 mb-3 fst-italic">
+              Why to choose us ?
+            </h3>
+            <h1 class="text-center text-white">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              ducimus
+            </h1>
+
+            <div class="row mb-5">
+              <div class="col-md-3">
+                <div class="features text-white text-center my-4 p-4">
+                  <div class="feauture-icon my-4">
+                    <i class="ri-wifi-line"></i>
+                  </div>
+                  <h3>Free Wifi</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic, dolores?
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="features text-white text-center my-4 p-4">
+                  <div class="feauture-icon my-4">
+                    <i class="ri-alarm-fill"></i>
+                  </div>
+                  <h3>Fast Delivery</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic, dolores?
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="features text-white text-center my-4 p-4">
+                  <div class="feauture-icon my-4">
+                    <i class="ri-user-heart-fill"></i>
+                  </div>
+                  <h3>Friendly Staff</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic, dolores?
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="features text-white text-center my-4 p-4">
+                  <div class="feauture-icon my-4">
+                    <i class="ri-star-fill"></i>
+                  </div>
+                  <h3>Highly Rated</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Hic, dolores?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------- end feature section-------------------------->
+
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

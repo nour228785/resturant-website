@@ -1,0 +1,122 @@
+:root{
+    --fonts1:Sevillana;
+    --fonts2:Oxanium
+    --fonts3:spline
+
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family:var(--fonts1);
+}
+section{
+    padding-top: 150px;
+
+}
+.shdow-on-hover{
+    transition: all 0.5s;
+}
+.shdow-on-hover:hover{
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+.navbar-brand{
+    font-family: var(--fonts1);
+    font-size: 50px;
+    font-weight: 1000;
+    text-shadow:3px 3px 25px black;
+    color: orange;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+ a{ 
+    font-family: var(--fonts2);
+    font-weight: 300px;  
+    color:black !important;
+    font-size:23px ;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+ a:hover{
+    color:white !important;
+    border-radius: 10px !important;
+    background-color: orange; 
+     
+}
+ .btn-brand{
+    font-family: var(--fonts1);
+    background-color:orange;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 30px;
+}
+.btn-brand:hover{
+    color: white;
+    border: rgb(236, 153, 120); 
+}
+.slide1{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/kitchen.jpg);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.slide2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/chef.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-control-prev,.carousel-control-next{
+    background: black;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+/* --------about---------------*/
+#about .divider{
+    display: block;
+    width: 60px;
+    height: 5px;
+    color: orange;
+
+}
+/*-------------- Explor menu-------------------*/
+.menu-text p{
+    max-width: 500px;
+    margin: 40px auto ;
+}
+#menu .nav-pills .nav-link{
+    color: black;
+    background-color: #fff;
+    margin: 0 20px;
+    border-radius: 10px;
+    padding:10px 35px;
+}
+#menu .nav-pills .nav-link.active{
+    color: #fff;
+    background-color: orange;
+
+}
+.menu-item-content span i {
+    color: orange;
+}
+#feature{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/footer.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features{
+border: 2px solid #ffffff2b;
+}
+.feauture-icon{
+    background-color: orange;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-grid;
+}
+
